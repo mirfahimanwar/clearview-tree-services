@@ -325,7 +325,7 @@
           <div class="footer-col">
             <h4>Contact</h4>
             <div class="footer-contact-info">
-              <p>📞 (555) 234-5678</p>
+              <p>📞 (785) 370-2167</p>
               <p>✉️ info@clearviewtree.com</p>
               <p>🕐 Mon–Sat: 7am–6pm</p>
               <p>🚨 24/7 Emergency Line</p>
