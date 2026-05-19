@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v=1.3" />
+  <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v=1.4" />
 </head>
 <body>
 
@@ -44,7 +44,7 @@
         <h1>Expert Tree Care<br><em>You Can Trust</em></h1>
         <p>Professional tree removal, trimming, and maintenance for residential and commercial properties. Safe, efficient, and priced fairly.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary btn-lg">Get Free Quote</a>
+          <a href="#contact" class="btn btn-cta btn-lg"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Get Your Free Quote Now!</a>
           <a href="#services" class="btn btn-secondary btn-lg">Our Services</a>
         </div>
         <div class="hero-stats">

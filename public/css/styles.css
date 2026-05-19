@@ -103,6 +103,17 @@ input, select, textarea { font-family: inherit; }
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(45,106,79,0.35);
 }
+.btn-cta {
+  background: #ff6b00;
+  color: var(--white);
+  border-color: #ff6b00;
+  font-size: 1.05rem;
+}
+.btn-cta:hover {
+  background: #e05c00;
+  border-color: #e05c00;
+  transform: translateY(-3px);
+}
 .btn-secondary {
   background: transparent;
   color: var(--white);
