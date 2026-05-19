@@ -55,9 +55,13 @@
       const target = document.querySelector(href);
       if (!target) return;
       e.preventDefault();
-      const navHeight = navbar.offsetHeight;
-      const top = target.getBoundingClientRect().top + window.scrollY - navHeight - 8;
-      window.scrollTo({ top: top, behavior: 'smooth' });
+      const isMenuOpen = navLinks.classList.contains('open');
+      if (isMenuOpen) closeMenu();
+      setTimeout(function () {
+        const navHeight = navbar.offsetHeight;
+        const top = target.getBoundingClientRect().top + window.scrollY - navHeight + 5;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+      }, isMenuOpen ? 50 : 0);
     });
   });
 
