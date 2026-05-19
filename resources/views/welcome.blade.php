@@ -39,7 +39,7 @@
       <div class="hero-content">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          Licensed &amp; Insured &nbsp;·&nbsp; Serving the Community Since 2005
+          <span class="badge-text"><span class="badge-line">Licensed &amp; Insured</span><span class="badge-sep">&nbsp;·&nbsp;</span><span class="badge-line">Serving the Community Since 2016</span></span>
         </div>
         <h1>Expert Tree Care<br><em>You Can Trust</em></h1>
         <p>Professional tree removal, trimming, and maintenance for residential and commercial properties. Safe, efficient, and priced fairly.</p>
