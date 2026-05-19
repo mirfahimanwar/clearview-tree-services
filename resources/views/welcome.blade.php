@@ -338,7 +338,7 @@
               <span class="brand-icon">🌲</span>
               <span class="brand-name">ClearView <em>Tree</em></span>
             </div>
-            <p>Professional tree care you can trust. Serving residential and commercial clients since 2005.</p>
+            <p>Professional tree care you can trust. Serving residential and commercial clients since 2016.</p>
             <div class="social-links">
               <a href="https://www.facebook.com/mir.f.anwar" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-fb">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
