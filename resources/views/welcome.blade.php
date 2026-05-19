@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
+  <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v=1.1" />
 </head>
 <body>
 
@@ -349,6 +349,6 @@
     </div>
   </footer>
 
-  <script src="{{ asset('js/main.js') }}"></script>
+  <script src="{{ asset('js/main.js') }}?v=1.1"></script>
 </body>
 </html>

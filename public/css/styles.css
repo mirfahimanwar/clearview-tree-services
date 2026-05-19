@@ -1129,9 +1129,21 @@ section { padding: 96px 0; }
     justify-content: center;
     align-items: center;
     gap: 30px;
-    z-index: 100;
+    z-index: 200;
   }
+  .nav-toggle { z-index: 201; }
   .nav-links.open { display: flex; }
+  /* When menu is open, force navbar to dark bg regardless of scroll state */
+  .navbar.menu-open,
+  .navbar.menu-open.scrolled {
+    background: var(--c-dark) !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+    transition: none !important;
+  }
+  .navbar.menu-open .nav-toggle span,
+  .navbar.menu-open.scrolled .nav-toggle span { background: var(--white); }
+  .navbar.menu-open.scrolled .nav-links li a { color: rgba(255,255,255,0.9); }
   .nav-links li a { font-size: 1.15rem; color: rgba(255,255,255,0.9); }
   .btn-nav { font-size: 1.1rem; padding: 14px 32px; }
 

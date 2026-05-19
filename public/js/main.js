@@ -21,28 +21,31 @@
   const navToggle = document.getElementById('nav-toggle');
   const navLinks  = document.getElementById('nav-links');
 
+  function openMenu() {
+    navLinks.classList.add('open');
+    navToggle.classList.add('active');
+    navbar.classList.add('menu-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMenu() {
+    navLinks.classList.remove('open');
+    navToggle.classList.remove('active');
+    navbar.classList.remove('menu-open');
+    document.body.style.overflow = '';
+  }
+
   navToggle.addEventListener('click', function () {
-    const isOpen = navLinks.classList.toggle('open');
-    navToggle.classList.toggle('active', isOpen);
-    document.body.style.overflow = isOpen ? 'hidden' : '';
+    navLinks.classList.contains('open') ? closeMenu() : openMenu();
   });
 
   // Close menu when any nav link is clicked
   navLinks.querySelectorAll('a').forEach(function (link) {
-    link.addEventListener('click', function () {
-      navLinks.classList.remove('open');
-      navToggle.classList.remove('active');
-      document.body.style.overflow = '';
-    });
+    link.addEventListener('click', closeMenu);
   });
 
   // Close menu on Escape key
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && navLinks.classList.contains('open')) {
-      navLinks.classList.remove('open');
-      navToggle.classList.remove('active');
-      document.body.style.overflow = '';
-    }
+    if (e.key === 'Escape' && navLinks.classList.contains('open')) closeMenu();
   });
 
   // ── Smooth scroll for anchor links ───────────────────────────────
