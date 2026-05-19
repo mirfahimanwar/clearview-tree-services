@@ -57,7 +57,7 @@
       </div>
       <div class="hero-visual">
         <div class="hero-img-wrap" id="hero-img-wrap">
-          <img src="{{ asset('images/boom1.jpg') }}" alt="ClearView Tree crew at work"
+          <img src="{{ asset('images/boom3.jfif') }}" alt="ClearView Tree crew at work"
             onerror="document.getElementById('hero-img-wrap').classList.add('no-img'); this.style.display='none';" />
           <div class="hero-fallback-icon" aria-hidden="true">🌳</div>
         </div>
@@ -130,7 +130,7 @@
               onerror="this.parentElement.style.background='linear-gradient(135deg,#2d6a4f,#1b4332)'; this.style.display='none';" />
           </div>
           <div class="about-img-secondary">
-            <img src="{{ asset('images/boom1.jpg') }}" alt="ClearView Tree job site"
+            <img src="{{ asset('images/boom3.jfif') }}" alt="ClearView Tree job site"
               style="object-position: center top;"
               onerror="this.parentElement.style.background='linear-gradient(135deg,#52b788,#2d6a4f)'; this.style.display='none';" />
           </div>
