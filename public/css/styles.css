@@ -1005,22 +1005,24 @@ section { padding: 48px 0; }
 /* ================================================
    AREAS SERVED
    ================================================ */
-.areas-served { background: var(--gray-50); }
+.areas-served { background: var(--c-green-dark); }
 .areas-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 64px;
   align-items: center;
 }
+.areas-served .section-tag { background: rgba(255,255,255,0.15); color: var(--c-green-accent); }
 .areas-content h2 {
   font-family: var(--font-head);
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 14px;
+  color: var(--white);
 }
 .areas-content > p {
-  color: var(--gray-600);
+  color: rgba(255,255,255,0.75);
   font-size: 1rem;
   line-height: 1.65;
   margin-bottom: 32px;
@@ -1036,33 +1038,33 @@ section { padding: 48px 0; }
   align-items: center;
   gap: 12px;
   padding: 16px 18px;
-  background: var(--white);
-  border: 1px solid var(--gray-200);
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 12px;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, background 0.2s;
 }
 .area-card:hover {
-  border-color: var(--c-accent);
-  box-shadow: 0 4px 16px rgba(245,151,42,0.12);
+  background: rgba(255,255,255,0.13);
+  border-color: var(--c-green-accent);
 }
 .area-card svg {
   flex-shrink: 0;
-  color: var(--c-accent);
+  color: var(--c-green-accent);
 }
 .area-card strong {
   display: block;
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--gray-900);
+  color: var(--white);
 }
 .area-card span {
   display: block;
   font-size: 0.78rem;
-  color: var(--gray-500);
+  color: rgba(255,255,255,0.55);
 }
 .areas-note {
   font-size: 0.88rem;
-  color: var(--gray-500);
+  color: rgba(255,255,255,0.55);
 }
 .areas-note a {
   color: var(--c-accent);
