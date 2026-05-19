@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v=1.6" />
+  <link rel="stylesheet" href="{{ asset('css/styles.css') }}?v=1.7" />
 </head>
 <body>
 
@@ -24,6 +24,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#why-us">Why Us</a></li>
         <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#areas">Service Area</a></li>
         <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
       </ul>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
@@ -198,6 +199,49 @@
           <div class="stars">★★★★★</div>
           <p>"Best tree service in the area, period. Fair pricing, great communication, and beautiful work on our century-old maples. We'll never use anyone else."</p>
           <div class="testimonial-author"><div class="author-avatar">EL</div><div><strong>Emily Larson</strong><span>Homeowner</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== AREAS SERVED ======================== -->
+  <section class="areas-served" id="areas">
+    <div class="container">
+      <div class="areas-layout">
+        <div class="areas-content fade-up">
+          <span class="section-tag">Service Area</span>
+          <h2>Areas We Serve</h2>
+          <p>We provide professional tree care throughout the Manhattan, KS region and surrounding communities across Riley, Geary, and Pottawatomie counties.</p>
+          <div class="areas-cards">
+            <div class="area-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><strong>Manhattan</strong><span>Riley County</span></div>
+            </div>
+            <div class="area-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><strong>Junction City</strong><span>Geary County</span></div>
+            </div>
+            <div class="area-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><strong>St. George</strong><span>Pottawatomie County</span></div>
+            </div>
+            <div class="area-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><strong>Wamego</strong><span>Pottawatomie County</span></div>
+            </div>
+          </div>
+          <p class="areas-note">Don't see your city? <a href="#contact">Give us a call</a> — we may still be able to help.</p>
+        </div>
+        <div class="areas-map fade-up" data-delay="2">
+          <iframe
+            src="https://maps.google.com/maps?q=Manhattan+KS+66502&t=&z=10&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="420"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="ClearView Tree service area map"></iframe>
         </div>
       </div>
     </div>
