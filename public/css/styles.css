@@ -124,7 +124,7 @@ input, select, textarea { font-family: inherit; }
 }
 
 /* --- Section Common --- */
-section { padding: 96px 0; }
+section { padding: 48px 0; }
 
 .section-tag {
   display: inline-block;
@@ -1117,7 +1117,7 @@ section { padding: 96px 0; }
 }
 
 @media (max-width: 768px) {
-  section { padding: 72px 0; }
+  section { padding: 36px 0; }
 
   /* Mobile nav */
   .nav-toggle { display: flex; position: relative; z-index: 101; }

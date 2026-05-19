@@ -59,7 +59,7 @@
       if (isMenuOpen) closeMenu();
       setTimeout(function () {
         const navHeight = navbar.offsetHeight;
-        const top = target.getBoundingClientRect().top + window.scrollY - navHeight + 5;
+        const top = target.getBoundingClientRect().top + window.scrollY - navHeight + 20;
         window.scrollTo({ top: top, behavior: 'smooth' });
       }, isMenuOpen ? 50 : 0);
     });
